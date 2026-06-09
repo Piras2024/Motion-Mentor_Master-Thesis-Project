@@ -54,8 +54,39 @@ Predicted class (BERTScore): squat_butt_wink
 - `gemma4`, `qwen2vl`                — base (video only)
 - `gemma4_motion_proj`, `qwen_motion_proj` — per-timestep motion projection
 - `gemma4_qformer`, `qwen_qformer`   — Q-Former
+- `motionllm`                        — **motion only, no video** (see below)
 
-The `--checkpoint` path must match (`checkpoints/{name}_v2_or_v3/best`).
+For the VLM models the `--checkpoint` path must match
+(`checkpoints/{name}_v2_or_v3/best`), and the demo runs in the VLM/`paligemma`
+conda env.
+
+## Motion-only model (no video)
+
+The `motionllm` base-model runs the video-free track: it feeds VQ-VAE motion
+tokens straight into Gemma-2-2B (see `../motionllm/`). It uses the **same
+precomputed guofeats** as everything else, but never looks at the pixels. Run
+it in the `motionagent` conda env; `--checkpoint` defaults to the shipped
+`checkpoints/motionllm_corrective_v1/best.pth`, so it can be omitted:
+
+```bash
+conda run -n motionagent python demo/run_demo.py \
+    --video      demo/test_videos/squat_butt_wink10.mp4 \
+    --base-model motionllm \
+    --skip-hsmr
+```
+
+```
+DEMO RESULT  (motion-only — no video)
+========================================================================
+
+Video:    squat_butt_wink10.mp4
+Response: Your pelvis is tilting posteriorly at the bottom of the squat. Get
+          your core braced and keep your lower back neutral all the way down.
+Predicted class (BERTScore): squat_butt_wink
+```
+
+Add `--temperature 0.8 --top-p 0.9` for more varied phrasing (sampled instead
+of greedy).
 
 ## Trying your own video
 

@@ -1,0 +1,1009 @@
+{
+  "summary": {
+    "squat_butt_wink": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0
+    },
+    "squat_high_heel": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0
+    },
+    "squat_hands_wide": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8
+    },
+    "squat_head_position": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6
+    },
+    "squat_depth_high": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8
+    },
+    "squat_no_errors": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0
+    },
+    "rdl_hands_forward": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8
+    },
+    "rdl_head_position": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6
+    },
+    "rdl_no_error": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8
+    },
+    "rdl_too_much_depth": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6
+    },
+    "rdl_too_much_knee_bend": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6
+    }
+  },
+  "ml_summary": {
+    "avg_precision": 0.7454545454545455,
+    "avg_recall": 0.8,
+    "avg_f1": 0.7636363636363637,
+    "primary_in_pred": 44,
+    "total": 55
+  },
+  "results": [
+    {
+      "id": "butt_wink10",
+      "gt_cls": "squat_butt_wink",
+      "pred_cls": "squat_butt_wink",
+      "correct": true,
+      "gt": "",
+      "pred": "Your pelvis is tilting posteriorly at the bottom of the squat. Get your core braced and keep your lower back neutral all the way down.",
+      "gt_cls_set": [
+        "squat_butt_wink"
+      ],
+      "pred_cls_set": [
+        "squat_butt_wink"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "butt_wink24",
+      "gt_cls": "squat_butt_wink",
+      "pred_cls": "squat_butt_wink",
+      "correct": true,
+      "gt": "",
+      "pred": "At the bottom your pelvis tucks under. lock your core in and actively maintain a neutral lower back.",
+      "gt_cls_set": [
+        "squat_butt_wink"
+      ],
+      "pred_cls_set": [
+        "squat_butt_wink"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "butt_wink26",
+      "gt_cls": "squat_butt_wink",
+      "pred_cls": "squat_butt_wink",
+      "correct": true,
+      "gt": "",
+      "pred": "Your pelvis is tilting posteriorly at the bottom of the squat. Get your core braced and keep your lower back neutral all the way down.",
+      "gt_cls_set": [
+        "squat_butt_wink"
+      ],
+      "pred_cls_set": [
+        "squat_butt_wink"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "butt_wink4",
+      "gt_cls": "squat_butt_wink",
+      "pred_cls": "squat_butt_wink",
+      "correct": true,
+      "gt": "",
+      "pred": "Your pelvis tucks under at the bottom \u2014 butt wink. Lock your core in before the rep and keep your lower back neutral the whole way down.",
+      "gt_cls_set": [
+        "squat_butt_wink"
+      ],
+      "pred_cls_set": [
+        "squat_butt_wink"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "butt_wink22",
+      "gt_cls": "squat_butt_wink",
+      "pred_cls": "squat_butt_wink",
+      "correct": true,
+      "gt": "",
+      "pred": "At the bottom your pelvis tucks under. lock your core in and actively maintain a neutral lower back.",
+      "gt_cls_set": [
+        "squat_butt_wink"
+      ],
+      "pred_cls_set": [
+        "squat_butt_wink"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "high_heel14",
+      "gt_cls": "squat_high_heel",
+      "pred_cls": "squat_high_heel",
+      "correct": true,
+      "gt": "",
+      "pred": "Those heels are rising off the floor as you squat \u2014 flatten them out and feel your weight distributed evenly across the full sole.",
+      "gt_cls_set": [
+        "squat_high_heel"
+      ],
+      "pred_cls_set": [
+        "squat_high_heel"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "high_heel43",
+      "gt_cls": "squat_high_heel",
+      "pred_cls": "squat_high_heel",
+      "correct": true,
+      "gt": "",
+      "pred": "Those heels are rising off the floor as you squat \u2014 flatten them out and feel your weight distributed evenly across the full sole.",
+      "gt_cls_set": [
+        "squat_high_heel"
+      ],
+      "pred_cls_set": [
+        "squat_high_heel"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "high_heel16",
+      "gt_cls": "squat_high_heel",
+      "pred_cls": "squat_high_heel",
+      "correct": true,
+      "gt": "",
+      "pred": "Those heels are rising off the floor as you squat \u2014 flatten them out and feel your weight distributed evenly across the full sole.",
+      "gt_cls_set": [
+        "squat_high_heel"
+      ],
+      "pred_cls_set": [
+        "squat_high_heel"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "high_heel10",
+      "gt_cls": "squat_high_heel",
+      "pred_cls": "squat_high_heel",
+      "correct": true,
+      "gt": "",
+      "pred": "Those heels are rising off the floor as you squat \u2014 flatten them out and feel your weight distributed evenly across the full sole.",
+      "gt_cls_set": [
+        "squat_high_heel"
+      ],
+      "pred_cls_set": [
+        "squat_high_heel"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "high_heel32",
+      "gt_cls": "squat_high_heel",
+      "pred_cls": "squat_high_heel",
+      "correct": true,
+      "gt": "",
+      "pred": "Those heels are rising off the floor as you squat \u2014 flatten them out and feel your weight distributed evenly across the full sole.",
+      "gt_cls_set": [
+        "squat_high_heel"
+      ],
+      "pred_cls_set": [
+        "squat_high_heel"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "hands_wide23",
+      "gt_cls": "squat_hands_wide",
+      "pred_cls": "squat_hands_wide",
+      "correct": true,
+      "gt": "",
+      "pred": "Your hands are placed too wide on the bar, slide them in closer to your shoulders.",
+      "gt_cls_set": [
+        "squat_hands_wide"
+      ],
+      "pred_cls_set": [
+        "squat_hands_wide"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "hands_wide19",
+      "gt_cls": "squat_hands_wide",
+      "pred_cls": "squat_hands_wide",
+      "correct": true,
+      "gt": "",
+      "pred": "Your grip is too wide, bring your hands in closer to your shoulders to improve upper back tightness.",
+      "gt_cls_set": [
+        "squat_hands_wide"
+      ],
+      "pred_cls_set": [
+        "squat_hands_wide"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "hands_wide11",
+      "gt_cls": "squat_hands_wide",
+      "pred_cls": "squat_head_position",
+      "correct": false,
+      "gt": "",
+      "pred": "You're looking straight down and it's pulling your head out of line with your spine. Look in front of you to bring your head in line with your torso.",
+      "gt_cls_set": [
+        "squat_hands_wide"
+      ],
+      "pred_cls_set": [
+        "squat_head_position"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "hands_wide15",
+      "gt_cls": "squat_hands_wide",
+      "pred_cls": "squat_hands_wide",
+      "correct": true,
+      "gt": "",
+      "pred": "Your hands are too wide on the bar, bring them in closer to improve upper back tightness.",
+      "gt_cls_set": [
+        "squat_hands_wide"
+      ],
+      "pred_cls_set": [
+        "squat_hands_wide"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "hands_wide18",
+      "gt_cls": "squat_hands_wide",
+      "pred_cls": "squat_hands_wide",
+      "correct": true,
+      "gt": "",
+      "pred": "Your hands are too wide on the bar, bring them in closer to improve upper back tightness.",
+      "gt_cls_set": [
+        "squat_hands_wide"
+      ],
+      "pred_cls_set": [
+        "squat_hands_wide"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "head_position49",
+      "gt_cls": "squat_head_position",
+      "pred_cls": "squat_depth_high",
+      "correct": false,
+      "gt": "",
+      "pred": "You are not reaching parallel depth in this squat, if mobility is not the limiting factor, focus on building the habit of sitting lower before reversing.",
+      "gt_cls_set": [
+        "squat_head_position"
+      ],
+      "pred_cls_set": [
+        "squat_depth_high",
+        "squat_head_position"
+      ],
+      "ml_precision": 0.5,
+      "ml_recall": 1.0,
+      "ml_f1": 0.6666666666666666
+    },
+    {
+      "id": "head_position29",
+      "gt_cls": "squat_head_position",
+      "pred_cls": "squat_depth_high",
+      "correct": false,
+      "gt": "",
+      "pred": "You are not reaching parallel depth in this squat, if mobility is not the limiting factor, focus on building the habit of sitting lower before reversing.",
+      "gt_cls_set": [
+        "squat_head_position"
+      ],
+      "pred_cls_set": [
+        "squat_depth_high",
+        "squat_head_position"
+      ],
+      "ml_precision": 0.5,
+      "ml_recall": 1.0,
+      "ml_f1": 0.6666666666666666
+    },
+    {
+      "id": "head_position6",
+      "gt_cls": "squat_head_position",
+      "pred_cls": "squat_head_position",
+      "correct": true,
+      "gt": "",
+      "pred": "Your head is tilted too far down and it's breaking alignment with your torso. Look ahead of you, not straight at the floor, to keep your head in a neutral position during the squat.",
+      "gt_cls_set": [
+        "squat_head_position"
+      ],
+      "pred_cls_set": [
+        "rdl_head_position"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "head_position14",
+      "gt_cls": "squat_head_position",
+      "pred_cls": "squat_head_position",
+      "correct": true,
+      "gt": "",
+      "pred": "You're looking straight down and it's pulling your head out of line with your spine. Look in front of you to bring your head in line with your torso.",
+      "gt_cls_set": [
+        "squat_head_position"
+      ],
+      "pred_cls_set": [
+        "squat_head_position"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "head_position38",
+      "gt_cls": "squat_head_position",
+      "pred_cls": "squat_head_position",
+      "correct": true,
+      "gt": "",
+      "pred": "Your head is in the wrong position \u2014 too far down and not in line with your torso. Look more in front of you to correct it.",
+      "gt_cls_set": [
+        "squat_head_position"
+      ],
+      "pred_cls_set": [
+        "squat_head_position"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "depth_high27",
+      "gt_cls": "squat_depth_high",
+      "pred_cls": "squat_depth_high",
+      "correct": true,
+      "gt": "",
+      "pred": "You are not reaching parallel depth in this squat, if mobility is not the limiting factor, focus on building the habit of sitting lower before reversing.",
+      "gt_cls_set": [
+        "squat_depth_high"
+      ],
+      "pred_cls_set": [
+        "squat_depth_high",
+        "squat_head_position"
+      ],
+      "ml_precision": 0.5,
+      "ml_recall": 1.0,
+      "ml_f1": 0.6666666666666666
+    },
+    {
+      "id": "depth_high31",
+      "gt_cls": "squat_depth_high",
+      "pred_cls": "squat_depth_high",
+      "correct": true,
+      "gt": "",
+      "pred": "You are not reaching parallel depth in this squat, if mobility is not the limiting factor, focus on building the habit of sitting lower before reversing.",
+      "gt_cls_set": [
+        "squat_depth_high"
+      ],
+      "pred_cls_set": [
+        "squat_depth_high",
+        "squat_head_position"
+      ],
+      "ml_precision": 0.5,
+      "ml_recall": 1.0,
+      "ml_f1": 0.6666666666666666
+    },
+    {
+      "id": "depth_high24",
+      "gt_cls": "squat_depth_high",
+      "pred_cls": "squat_hands_wide",
+      "correct": false,
+      "gt": "",
+      "pred": "Your hands are too wide on the bar, bring them in closer to improve upper back tightness.",
+      "gt_cls_set": [
+        "squat_depth_high"
+      ],
+      "pred_cls_set": [
+        "squat_hands_wide"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "depth_high19",
+      "gt_cls": "squat_depth_high",
+      "pred_cls": "squat_depth_high",
+      "correct": true,
+      "gt": "",
+      "pred": "You are not reaching parallel depth. Your femurs stop above horizontal at the bottom and you are missing the deepest portion of the squat range of motion.",
+      "gt_cls_set": [
+        "squat_depth_high"
+      ],
+      "pred_cls_set": [
+        "squat_depth_high",
+        "squat_head_position"
+      ],
+      "ml_precision": 0.5,
+      "ml_recall": 1.0,
+      "ml_f1": 0.6666666666666666
+    },
+    {
+      "id": "depth_high40",
+      "gt_cls": "squat_depth_high",
+      "pred_cls": "squat_depth_high",
+      "correct": true,
+      "gt": "",
+      "pred": "You are not reaching parallel depth in this squat, if mobility is not the limiting factor, focus on building the habit of sitting lower before reversing.",
+      "gt_cls_set": [
+        "squat_depth_high"
+      ],
+      "pred_cls_set": [
+        "squat_depth_high",
+        "squat_head_position"
+      ],
+      "ml_precision": 0.5,
+      "ml_recall": 1.0,
+      "ml_f1": 0.6666666666666666
+    },
+    {
+      "id": "no_errors44",
+      "gt_cls": "squat_no_errors",
+      "pred_cls": "squat_no_errors",
+      "correct": true,
+      "gt": "",
+      "pred": "Well done, your squat is clean and solid, nothing to correct.",
+      "gt_cls_set": [
+        "squat_no_errors"
+      ],
+      "pred_cls_set": [
+        "squat_no_errors"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "no_errors25",
+      "gt_cls": "squat_no_errors",
+      "pred_cls": "squat_no_errors",
+      "correct": true,
+      "gt": "",
+      "pred": "Your squat looks great, nothing to fix on that rep.",
+      "gt_cls_set": [
+        "squat_no_errors"
+      ],
+      "pred_cls_set": [
+        "squat_no_errors"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "no_errors27",
+      "gt_cls": "squat_no_errors",
+      "pred_cls": "squat_no_errors",
+      "correct": true,
+      "gt": "",
+      "pred": "Your squat is solid and correct, nothing to correct on that rep.",
+      "gt_cls_set": [
+        "squat_no_errors"
+      ],
+      "pred_cls_set": [
+        "squat_no_errors"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "no_errors21",
+      "gt_cls": "squat_no_errors",
+      "pred_cls": "squat_no_errors",
+      "correct": true,
+      "gt": "",
+      "pred": "Well done, your squat is clean and correct, no corrections needed.",
+      "gt_cls_set": [
+        "squat_no_errors"
+      ],
+      "pred_cls_set": [
+        "squat_no_errors"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "no_errors8",
+      "gt_cls": "squat_no_errors",
+      "pred_cls": "squat_no_errors",
+      "correct": true,
+      "gt": "",
+      "pred": "Your squat looks great, nothing to fix on that rep.",
+      "gt_cls_set": [
+        "squat_no_errors"
+      ],
+      "pred_cls_set": [
+        "squat_no_errors"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_hands_forward19",
+      "gt_cls": "rdl_hands_forward",
+      "pred_cls": "rdl_hands_forward",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is leaving your legs and drifting forward during the hinge. When this happens the load shifts from your hamstrings \u2014 where it belongs \u2014 to your lower back, which has to work much harder to compensate. Keep the bar grazing your legs to maintain the correct load distribution.",
+      "gt_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "pred_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_hands_forward49",
+      "gt_cls": "rdl_hands_forward",
+      "pred_cls": "rdl_hands_forward",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is leaving your legs during the hinge. Contact between the bar and your thighs on both the descent and ascent is fundamental to the RDL. Efficiency and safety both depend on how close the bar stays to your body \u2014 closer is always better.",
+      "gt_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "pred_cls_set": [
+        "unknown"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "rdl_hands_forward46",
+      "gt_cls": "rdl_hands_forward",
+      "pred_cls": "rdl_hands_forward",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is leaving your legs and drifting forward during the hinge. When this happens the load shifts from your hamstrings \u2014 where it belongs \u2014 to your lower back, which has to work much harder to compensate. Keep the bar grazing your legs to maintain the correct load distribution.",
+      "gt_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "pred_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_hands_forward29",
+      "gt_cls": "rdl_hands_forward",
+      "pred_cls": "rdl_no_error",
+      "correct": false,
+      "gt": "",
+      "pred": "The bar is traveling vertically close to your body, your back is neutral, and the movement is technically correct in every phase. Clean Romanian deadlift.",
+      "gt_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "pred_cls_set": [
+        "rdl_no_error"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "rdl_hands_forward36",
+      "gt_cls": "rdl_hands_forward",
+      "pred_cls": "rdl_hands_forward",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is leaving your legs and drifting forward during the hinge. When this happens the load shifts from your hamstrings \u2014 where it belongs \u2014 to your lower back, which has to work much harder to compensate. Keep the bar grazing your legs to maintain the correct load distribution.",
+      "gt_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "pred_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_head_position26",
+      "gt_cls": "rdl_head_position",
+      "pred_cls": "rdl_no_error",
+      "correct": false,
+      "gt": "",
+      "pred": "The bar is traveling vertically close to your body, your back is neutral, and the movement is technically correct in every phase. Clean Romanian deadlift.",
+      "gt_cls_set": [
+        "rdl_head_position"
+      ],
+      "pred_cls_set": [
+        "rdl_no_error"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "rdl_head_position49",
+      "gt_cls": "rdl_head_position",
+      "pred_cls": "rdl_head_position",
+      "correct": true,
+      "gt": "",
+      "pred": "Your head is being held up with your chin elevated during this hinge. Keep your head in line with your spine \u2014 your chin should be neutral, not lifted, and your head should follow the direction your torso is going.",
+      "gt_cls_set": [
+        "rdl_head_position"
+      ],
+      "pred_cls_set": [
+        "rdl_head_position"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_head_position27",
+      "gt_cls": "rdl_head_position",
+      "pred_cls": "rdl_hands_forward",
+      "correct": false,
+      "gt": "",
+      "pred": "The bar is leaving your legs and drifting forward during the hinge. When this happens the load shifts from your hamstrings \u2014 where it belongs \u2014 to your lower back, which has to work much harder to compensate. Keep the bar grazing your legs to maintain the correct load distribution.",
+      "gt_cls_set": [
+        "rdl_head_position"
+      ],
+      "pred_cls_set": [
+        "rdl_hands_forward"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "rdl_head_position15",
+      "gt_cls": "rdl_head_position",
+      "pred_cls": "rdl_head_position",
+      "correct": true,
+      "gt": "",
+      "pred": "Your head is being held up with your chin elevated during this hinge. Keep your head in line with your spine \u2014 your chin should be neutral, not lifted, and your head should follow the direction your torso is going.",
+      "gt_cls_set": [
+        "rdl_head_position"
+      ],
+      "pred_cls_set": [
+        "rdl_head_position"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_head_position4",
+      "gt_cls": "rdl_head_position",
+      "pred_cls": "rdl_head_position",
+      "correct": true,
+      "gt": "",
+      "pred": "Your head is being held up with your chin elevated during this hinge. Keep your head in line with your spine \u2014 your chin should be neutral, not lifted, and your head should follow the direction your torso is going.",
+      "gt_cls_set": [
+        "rdl_head_position"
+      ],
+      "pred_cls_set": [
+        "rdl_head_position"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_no_error43",
+      "gt_cls": "rdl_no_error",
+      "pred_cls": "rdl_no_error",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is close, your back is flat, and the hip hinge is correct. This is exactly how the Romanian deadlift should be performed.",
+      "gt_cls_set": [
+        "rdl_no_error"
+      ],
+      "pred_cls_set": [
+        "rdl_no_error"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_no_error34",
+      "gt_cls": "rdl_no_error",
+      "pred_cls": "rdl_no_error",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is close, your back is flat, and the hip hinge is correct. This is exactly how the Romanian deadlift should be performed.",
+      "gt_cls_set": [
+        "rdl_no_error"
+      ],
+      "pred_cls_set": [
+        "rdl_no_error"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_no_error30",
+      "gt_cls": "rdl_no_error",
+      "pred_cls": "rdl_no_error",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is close, your back is flat, and the hip hinge is correct. This is exactly how the Romanian deadlift should be performed.",
+      "gt_cls_set": [
+        "rdl_no_error"
+      ],
+      "pred_cls_set": [
+        "rdl_no_error"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_no_error41",
+      "gt_cls": "rdl_no_error",
+      "pred_cls": "rdl_no_error",
+      "correct": true,
+      "gt": "",
+      "pred": "The bar is close, your back is flat, and the hip hinge is correct. This is exactly how the Romanian deadlift should be performed.",
+      "gt_cls_set": [
+        "rdl_no_error"
+      ],
+      "pred_cls_set": [
+        "rdl_no_error"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_no_error15",
+      "gt_cls": "rdl_no_error",
+      "pred_cls": "rdl_hands_forward",
+      "correct": false,
+      "gt": "",
+      "pred": "The bar is leaving your legs during the hinge. Contact between the bar and your thighs on both the descent and ascent is fundamental to the RDL. Efficiency and safety both depend on how close the bar stays to your body \u2014 closer is always better.",
+      "gt_cls_set": [
+        "rdl_no_error"
+      ],
+      "pred_cls_set": [
+        "unknown"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "rdl_too_much_depth47",
+      "gt_cls": "rdl_too_much_depth",
+      "pred_cls": "rdl_too_much_depth",
+      "correct": true,
+      "gt": "",
+      "pred": "you are going past the appropriate depth in this Romanian deadlift. stop when your hips have pushed back as far as they can go, before your lower back compensates.",
+      "gt_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "pred_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_too_much_depth36",
+      "gt_cls": "rdl_too_much_depth",
+      "pred_cls": "rdl_hands_forward",
+      "correct": false,
+      "gt": "",
+      "pred": "The bar is leaving your legs during the hinge. Contact between the bar and your thighs on both the descent and ascent is fundamental to the RDL. Efficiency and safety both depend on how close the bar stays to your body \u2014 closer is always better.",
+      "gt_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "pred_cls_set": [
+        "unknown"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "rdl_too_much_depth31",
+      "gt_cls": "rdl_too_much_depth",
+      "pred_cls": "rdl_no_error",
+      "correct": false,
+      "gt": "",
+      "pred": "The bar is traveling vertically close to your body, your back is neutral, and the movement is technically correct in every phase. Clean Romanian deadlift.",
+      "gt_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "pred_cls_set": [
+        "rdl_no_error"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    },
+    {
+      "id": "rdl_too_much_depth28",
+      "gt_cls": "rdl_too_much_depth",
+      "pred_cls": "rdl_too_much_depth",
+      "correct": true,
+      "gt": "",
+      "pred": "you are going past the appropriate depth in this Romanian deadlift. stop when your hips have pushed back as far as they can go, before your lower back compensates.",
+      "gt_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "pred_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_too_much_depth21",
+      "gt_cls": "rdl_too_much_depth",
+      "pred_cls": "rdl_too_much_depth",
+      "correct": true,
+      "gt": "",
+      "pred": "you are going past the appropriate range. end the descent when your hips have hit their limit and can no longer push back, before any compensation from the lower back.",
+      "gt_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "pred_cls_set": [
+        "rdl_too_much_depth"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_too_much_knee_bend4",
+      "gt_cls": "rdl_too_much_knee_bend",
+      "pred_cls": "rdl_too_much_knee_bend",
+      "correct": true,
+      "gt": "",
+      "pred": "Your knees are bending too much in this Romanian deadlift. Keep them nearly straight and use the hip push-back to drive the descent \u2014 your hamstrings will stretch and load as your hips move further from the bar.",
+      "gt_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "pred_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_too_much_knee_bend38",
+      "gt_cls": "rdl_too_much_knee_bend",
+      "pred_cls": "rdl_hands_forward",
+      "correct": false,
+      "gt": "",
+      "pred": "The knee angle is not being fixed after the initial softening \u2014 it continues to increase throughout the descent. Set a slight knee bend at the start of the movement and lock it there. The hips should create all further range of motion by traveling backward.",
+      "gt_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "pred_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_too_much_knee_bend17",
+      "gt_cls": "rdl_too_much_knee_bend",
+      "pred_cls": "rdl_too_much_knee_bend",
+      "correct": true,
+      "gt": "",
+      "pred": "Your knees are bending too much during this RDL, turning a hip hinge into a squat-like pattern. The knees should have only a slight fixed bend throughout \u2014 the hip push-back is what drives the descent.",
+      "gt_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "pred_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_too_much_knee_bend49",
+      "gt_cls": "rdl_too_much_knee_bend",
+      "pred_cls": "rdl_too_much_knee_bend",
+      "correct": true,
+      "gt": "",
+      "pred": "Your knees are bending too much during this RDL, turning a hip hinge into a squat-like pattern. The knees should have only a slight fixed bend throughout \u2014 the hip push-back is what drives the descent.",
+      "gt_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "pred_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "ml_precision": 1.0,
+      "ml_recall": 1.0,
+      "ml_f1": 1.0
+    },
+    {
+      "id": "rdl_too_much_knee_bend35",
+      "gt_cls": "rdl_too_much_knee_bend",
+      "pred_cls": "rdl_no_error",
+      "correct": false,
+      "gt": "",
+      "pred": "Knees providing range of motion instead of hips \u2014 straighten and push the hips back further.",
+      "gt_cls_set": [
+        "rdl_too_much_knee_bend"
+      ],
+      "pred_cls_set": [
+        "unknown"
+      ],
+      "ml_precision": 0.0,
+      "ml_recall": 0.0,
+      "ml_f1": 0.0
+    }
+  ]
+}
