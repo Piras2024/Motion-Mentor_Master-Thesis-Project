@@ -1,0 +1,79 @@
+{
+  "squat_no_errors": [
+    "your squat looks great, good job! the form is clean and there is nothing to correct here.",
+    "this is a solid squat. your depth is good, your back stays neutral, and the movement looks controlled. nothing to fix.",
+    "well done, the squat technique is correct. you are hitting good depth with a neutral spine and the bar path looks clean.",
+    "good work! the squat is looking really clean. keep doing what you are doing.",
+    "this squat is well executed. depth is adequate, posture is good, and the movement is smooth. no corrections needed."
+  ],
+  "squat_depth_high": [
+    "your squat is too shallow — you are stopping well above parallel. you need to descend until your hip crease is at least level with the top of your knee. try sitting back and down more deliberately and work on ankle and hip mobility.",
+    "you are not reaching adequate squat depth. the thighs should be at least parallel to the floor at the bottom position. focus on pushing your knees out and sitting deep into the squat.",
+    "the squat depth is insufficient — you are stopping too high. a proper squat requires the hip joint to descend to at least the level of the knee joint. work on hip and ankle mobility and consciously try to sit deeper.",
+    "you are squatting too shallow, not reaching parallel. this limits muscle activation. think about sitting down between your heels rather than just bending your knees and let your hips drop all the way.",
+    "the squat is not reaching full depth. your hips need to drop lower so your thighs reach at least parallel with the ground. if mobility is limiting you try elevating your heels slightly or working on ankle flexibility."
+  ],
+  "squat_butt_wink": [
+    "at the bottom of the squat your pelvis is tucking under, this is called a butt wink. focus on maintaining the natural arch in your lower back throughout the descent. try not going quite as deep until you have better control of your pelvic position.",
+    "your lower back is rounding at the bottom of the squat as your pelvis tilts posteriorly. this is a butt wink and can place strain on your lumbar spine. work on hip flexor and hamstring mobility and keep your chest up throughout the movement.",
+    "there is a noticeable butt wink at the bottom of your squat — your pelvis is tucking under and your lower back is losing its neutral position. this is often a mobility issue at the hips or ankles. try squatting to just above the depth where the wink occurs.",
+    "as you reach the bottom of the squat the pelvis is tilting posteriorly and the lower back is rounding. brace your core more aggressively on the way down and focus on sitting between your heels rather than dropping straight down.",
+    "you are experiencing pelvic tucking at the bottom position. the lower back loses its neutral arch as you reach full depth. work on hip mobility and strengthen your ability to maintain lumbar position under load."
+  ],
+  "squat_hands_wide": [
+    "your hands are placed too wide on the bar. this reduces your ability to retract your shoulder blades and create upper back tightness. bring your hands in closer to your shoulders to improve your rack position.",
+    "the grip width is too wide. narrowing your hand position will allow you to create more upper back tension and a more stable shelf for the bar. try bringing your hands in until you feel tightness across your upper back.",
+    "your hands are too far apart on the bar. a wider grip reduces shoulder stability and upper back engagement. slide your hands inward until you feel your shoulder blades pull together and your upper back tighten.",
+    "the bar placement is being compromised by the width of your grip. bring your hands closer together to improve the tightness of your upper back and create a more secure position for the bar.",
+    "you are gripping the bar too wide. this makes it harder to keep your elbows under the bar and your upper back tight. narrow your grip and focus on pulling your elbows forward and down to create a solid shelf."
+  ],
+  "squat_head_position": [
+    "too much torso forward lean, which is likely caused by your head position. you are looking straight down — try to fix your gaze on a point roughly one meter in front of you on the floor, this should help maintain a more upright torso.",
+    "your head is angled too far down which is causing your torso to lean forward. keep your chin slightly tucked and look ahead rather than at the floor directly in front of you.",
+    "you are looking too far downward during the squat, which pulls your chest down and increases forward lean. find a focal point slightly above horizontal and maintain that gaze throughout the lift.",
+    "the head position is causing a chain reaction — looking down is pulling your chest forward and compromising your posture. keep your head in line with your spine and look slightly forward rather than straight down.",
+    "your gaze is directed too far toward the floor, which tends to round the upper back and create forward lean. look ahead at a point on the wall at roughly eye level to help keep your torso upright."
+  ],
+  "squat_high_heel": [
+    "you are raising your heels on the way down, lifting them off the floor. this causes instability. your feet should stay flat on the ground throughout the entire movement, with your weight distributed evenly across the whole sole.",
+    "your heels are coming off the ground as you descend. this shifts your weight forward onto your toes and reduces stability. work on ankle mobility and try to keep your entire foot in contact with the floor.",
+    "the heels are lifting during the squat. this is usually a sign of limited ankle dorsiflexion. work on ankle stretching and mobility, and focus on pushing your knees out while keeping your heels firmly planted.",
+    "heels are rising off the ground during the descent which puts you off balance. try elevating your heels on a small plate temporarily to allow a deeper squat while you work on improving your ankle mobility long term.",
+    "your heels are leaving the floor during the squat, causing you to shift onto your toes. this reduces control and increases injury risk. keep your feet flat throughout — if ankle mobility is the issue, address it with targeted stretching."
+  ],
+  "rdl_no_error": [
+    "this is a well executed romanian deadlift. the bar stays close to your legs throughout the movement, your back remains neutral, and the hinge pattern looks clean. nothing to correct here.",
+    "great romanian deadlift. the hip hinge is clean, your back stays flat, and the bar path is correct. keep it up.",
+    "this rdl looks solid. good bar path, neutral spine, and appropriate depth. no corrections needed.",
+    "well done on this romanian deadlift. the technique is correct — the bar stays close, the back is neutral, and the movement is controlled.",
+    "the romanian deadlift form is clean. the bar stays in contact with your legs, your hips drive the movement, and your spine stays neutral throughout. nothing to fix."
+  ],
+  "rdl_hands_forward": [
+    "during this romanian deadlift your hands are drifting away from your body as you descend. the bar should stay in contact with or very close to your legs throughout the entire movement. think of shaving your shins and thighs on the way down.",
+    "the bar is moving away from your legs as you lower it. keep the bar dragging along your body — this reduces the moment arm and protects your lower back. focus on pushing your hips back rather than bending forward.",
+    "your hands are drifting forward away from your legs during the rdl. this increases the load on your lower back. keep the bar as close to your body as possible throughout the entire range of motion.",
+    "the bar is traveling away from your body instead of staying close to your legs. this is a common rdl mistake — think about keeping the bar in contact with your thighs and shins on the way down and on the way up.",
+    "during the descent the bar is drifting out in front of you rather than staying close to your legs. pull the bar into your body throughout the movement to maintain a tight bar path and protect your spine."
+  ],
+  "rdl_too_much_depth": [
+    "you are descending too far in this romanian deadlift. once your hips have pushed back as far as they can go, continuing to lower the bar forces your lower back to round. stop the descent at the point where your back starts to flex.",
+    "the rdl is going too deep — your lower back is beginning to round as you push past the range your hamstrings can control. stop the movement when you feel a strong stretch in your hamstrings and your back stays flat.",
+    "you are going past the appropriate depth for a romanian deadlift. the movement should stop when your hamstrings are fully stretched and your hips can no longer hinge back. going deeper causes the lower back to compensate.",
+    "the descent in this rdl is too long. your lower back is rounding at the bottom because you are going past the natural end range of the hip hinge. limit the depth to where you can maintain a neutral spine.",
+    "you are descending too much in this romanian deadlift. once the hips stop moving back, the only way to keep lowering the bar is to round the lower back — stop before that happens and reverse the movement."
+  ],
+  "rdl_head_position": [
+    "your head is being held up during the rdl, looking too far forward. your head should remain in line with your torso throughout the hinge — keep your gaze directed toward the floor a few feet in front of you rather than straight ahead.",
+    "the head is hyperextended during the rdl — you are looking too far up which puts strain on the cervical spine. your head should follow the natural line of your spine, not be held up independently.",
+    "you are keeping your head up and looking forward during the romanian deadlift. instead, allow your head to move naturally with your torso so your neck stays in a neutral position throughout the movement.",
+    "your neck is extended too much during the rdl, with your head held high. your gaze should track the floor a couple of metres ahead of you as you hinge, keeping your head and spine aligned.",
+    "the head position during the rdl is incorrect — you are lifting your chin and looking too far forward. keep your head in line with your spine and let your eyes follow the angle of your torso as you hinge."
+  ],
+  "rdl_too_much_knee_bend": [
+    "there is too much knee bend in this romanian deadlift. the rdl is primarily a hip hinge movement — the knees should have only a slight bend and remain relatively fixed. excessive knee flexion turns it into a squat pattern rather than a hinge.",
+    "your knees are bending too much during the rdl. this shifts the focus away from the hamstrings and turns the movement into more of a squat. push your hips back and keep the knee bend minimal — just enough to allow the movement.",
+    "the knees are flexing excessively during this rdl. a romanian deadlift should be a hip-dominant movement with almost straight legs. initiate the movement by pushing your hips back rather than bending your knees.",
+    "you are bending your knees too much in this romanian deadlift, which reduces the hamstring stretch and changes the movement pattern. keep your legs nearly straight and focus on hinging at the hips to feel the stretch in the back of your legs.",
+    "too much knee flexion during the rdl — the knees should remain almost straight throughout the movement. think about pushing your hips backward while keeping your shins vertical, this will help you feel the stretch in your hamstrings and stop the knees from bending."
+  ]
+}

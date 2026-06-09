@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.Python
+build/
+dist/
+.installed.cfg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.hsmr_env/
+miniconda*/
+*.sh.bak
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local experiment outputs (not committed)
+wandb/
+outputs/
+runs/
+*.out
+*.err
+*.log
+
+# HSMR data and downloaded weights — see hsmr/README.md
+hsmr/data_inputs/
+hsmr/data_outputs/
+hsmr/Miniconda3-*
+
+# Generated guofeats / motion-token caches outside of demo/
+pipeline/output/
+
+# Large training experiments dir (motion-agent layout)
+motion_encoder/experiments/
+
+# OS / misc
+Thumbs.db
+*.pid
+*.pid.lock

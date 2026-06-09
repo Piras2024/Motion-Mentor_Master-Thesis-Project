@@ -1,0 +1,7 @@
+{
+  "n_queries": 8,
+  "qf_layers": 1,
+  "qf_heads": 8,
+  "motion_dim": 512,
+  "hidden_dim": 1536
+}
